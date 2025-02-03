@@ -134,8 +134,8 @@
 										<h3>Vara Pooja(Mangana)</h3>
 										<div class="event-col">
 											<i class="icon-clock"></i>
-											<span>11:00 AM</span>
-											<span>to 12:00 PM</span>
+											<span>11:30 AM</span>
+											<span>to 12:30 PM</span>
 										</div>
 										<div class="event-col">
 											<i class="icon-calendar"></i>
@@ -165,8 +165,8 @@
 										<h3>Muhurtha</h3>
 										<div class="event-col">
 											<i class="icon-clock"></i>
-											<span>10:00 AM</span>
-											<span>to 10:50 AM</span>
+											<span>09:30 AM</span>
+											<span>to 10:30 AM</span>
 										</div>
 										<div class="event-col">
 											<i class="icon-calendar"></i>
@@ -375,7 +375,10 @@
     simplyCountdown('.simply-countdown-one', {
         year: 2025,
         month: 2,
-        day: 23
+        day: 23,     
+		hours: 15,     // 10:00 AM
+        minutes: 30,    // 00 minutes
+        seconds: 0    // 00 seconds   
     });
 
     //jQuery example
@@ -383,6 +386,9 @@
 		year: 2025,
         month: 2,
         day: 23,
+		hours: 15,     // 10:00 AM
+        minutes: 30,    // 00 minutes
+        seconds: 0,    // 00 seconds   
         enableUtc: false
     });
 </script>
